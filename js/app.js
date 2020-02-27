@@ -78,7 +78,7 @@ while(guesses < 7){
     userCorrect = false;
     guesses++;
   }
-  if((userCorrect === false) && (guesses > 6)){
+  if(guesses > 6){
     alert('Uh oh, you did not get any right. I caught ' + pokemon);
     break;
   }

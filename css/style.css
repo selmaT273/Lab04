@@ -1,0 +1,76 @@
+.spanTag {
+    background-color: lightblue;
+
+
+}
+
+.parent {
+    top: 70;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+section {
+    /* margin-bottom: 150px; */
+    background-color: lightcyan;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+
+header {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: azure;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkgray;
+    font-size: 2em;
+}
+
+nav {
+    text-align: center;
+    margin-top: 25px;
+}
+
+nav ul {
+    border-top: 2px solid violet;
+    border-bottom: 2px solid violet;
+}
+
+nav li {
+    display: inline;
+    margin: 25px;
+}
+
+img {
+    display: block;
+}
+
+footer {
+    height: 50px;
+    background-color: lavender;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+   
+}
+
+footer p {
+    text-align: center;
+    
+}
